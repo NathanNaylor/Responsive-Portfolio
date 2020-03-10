@@ -1,28 +1,15 @@
 @media screen and (max-width: 640px) {
     #aboutContainer {
         width: 95%;
-        background-color: gray;
+        background-color: rgb(219, 219, 219);
     }
     #baldNate {
         width: 90%;
         margin: 0 5%;
+        float: left;
     }
     #aboutLorem{
         width: 100%;
-        float: left;
-    }
-    #portContainer {
-        width: 95%;
-        background-color: gray;
-    }
-
-
-    #portImg .col {
-        width: 95%;
-    }
-
-    #portContainer img{
-        margin: 20px 10%;
     }
 }
 
@@ -30,12 +17,13 @@
 
     #aboutContainer {
         width: 95%;
-        background-color: gray;
+        background-color: rgb(219, 219, 219);
     }
 
     #baldNate {
         width: 90%;
         margin: 0 5%;
+        float: left;
     }
     
 
@@ -49,19 +37,34 @@
 @media screen and (max-width: 980px) {
     #aboutContainer {
         width: 95%;
-        background-color: gray;
+        background-color: rgb(219, 219, 219);
     }
 
+    #baldNate {
+        float: left;
+    }
     
     #aboutLorem{
         width: 100%;
      }
-    /* .container {
-        max-width: 700px;
+
+
+}
+
+@media screen and (min-width: 980px) {
+    #aboutContainer {
+        width: 95%;
+        background-color: rgb(219, 219, 219);
     }
-    .col {
+
+    #baldNate {
+        float: left;
+    }
+    
+    #aboutLorem{
         width: 100%;
-    } */
+     }
+
 
 }
 
@@ -69,11 +72,24 @@
     margin-top: 5%;
 }
 
+#baldNate{
+    margin-right: 10px;
+}
 #aboutLorem {
-    max-width: 100%;
+    width: 100%;
+    }
+
+.wrap{
+    position: relative;
+    margin: 0  auto;
+    text-align: center;
 }
 
-#portContainer img{
-    width: 245px;
-}
+.wrap h2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(220, 231, 235);
 
+}
