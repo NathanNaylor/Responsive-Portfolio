@@ -1,0 +1,67 @@
+@media screen and (max-width: 640px) {
+    #aboutContainer {
+        width: 95%;
+        background-color: gray;
+    }
+    #baldNate {
+        width: 90%;
+        margin: 0 5%;
+    }
+    #aboutLorem{
+        width: 100%;
+        float: left;
+    }
+    #portContainer {
+        width: 95%;
+        background-color: gray;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #aboutContainer {
+        width: 95%;
+        background-color: gray;
+    }
+
+    #baldNate {
+        width: 90%;
+        margin: 0 5%;
+    }
+    
+
+    #aboutLorem{
+        width: 100%;
+     }
+    /* .container {
+        width: 700px;
+    } */
+
+}
+
+@media screen and (max-width: 980px) {
+    #aboutContainer {
+        width: 95%;
+        background-color: gray;
+    }
+
+    
+    #aboutLorem{
+        width: 100%;
+     }
+    /* .container {
+        max-width: 700px;
+    }
+    .col {
+        width: 100%;
+    } */
+
+}
+
+.container {
+    margin-top: 5%;
+}
+
+#aboutLorem {
+    max-width: 100%;
+}
