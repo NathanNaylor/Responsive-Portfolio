@@ -5,33 +5,27 @@
     }
     #baldNate {
         width: 90%;
-        margin: 0 5%;
+        margin: 5%;
         float: left;
     }
-    #aboutLorem{
+    #aboutLorem {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
-
     #aboutContainer {
         width: 95%;
         background-color: rgb(219, 219, 219);
     }
-
     #baldNate {
         width: 90%;
         margin: 0 5%;
         float: left;
     }
-    
-
-    #aboutLorem{
+    #aboutLorem {
         width: 100%;
     }
-
-    
 }
 
 @media screen and (max-width: 980px) {
@@ -39,16 +33,12 @@
         width: 95%;
         background-color: rgb(219, 219, 219);
     }
-
     #baldNate {
         float: left;
     }
-    
-    #aboutLorem{
+    #aboutLorem {
         width: 100%;
-     }
-
-
+    }
 }
 
 @media screen and (min-width: 980px) {
@@ -56,32 +46,29 @@
         width: 95%;
         background-color: rgb(219, 219, 219);
     }
-
     #baldNate {
         float: left;
     }
-    
-    #aboutLorem{
+    #aboutLorem {
         width: 100%;
-     }
-
-
+    }
 }
 
 .container {
     margin-top: 5%;
 }
 
-#baldNate{
-    margin-right: 10px;
+#baldNate {
+    margin: 0 15px 15px;
 }
+
 #aboutLorem {
     width: 100%;
-    }
+}
 
-.wrap{
+.wrap {
     position: relative;
-    margin: 0  auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -91,5 +78,4 @@
     bottom: 0;
     left: 0;
     background-color: rgb(220, 231, 235);
-
 }
